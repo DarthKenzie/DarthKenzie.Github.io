@@ -1,5 +1,5 @@
 ---
-title: Yr 8 Coding Blog 1
+title: Yr 8 Coding Blog1
 layout: post
 author: robert.mackenzie-crooks
 permalink: /yr-8-coding-blog-1/
