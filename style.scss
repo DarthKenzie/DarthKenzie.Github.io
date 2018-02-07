@@ -24,11 +24,23 @@ body {
   color: #FFE4C4;
 }
 
+table, th, td {
+   border: 1px solid black;
+}
+
 .container {
   margin: 0 auto;
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -44,18 +56,28 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.4;
   }
 }
-
+table {
+    border: 1px solid black;
+}
 h1 {
   font-size: 30px;
   a {
     color: inherit;
   }
 }
+table {
+    width: 100%;
+}
 
+th {
+    height: 50px;
+}
 h2 {
   font-size: 24px;
 }
-
+th {
+    text-align: left;
+}
 h3 {
   font-size: 20px;
 }
@@ -65,10 +87,18 @@ h4 {
   color: $gray;
 }
 
+td {
+    height: 50px;
+    vertical-align: bottom;
+}
 p {
   margin: 15px 0;
 }
 
+td {
+    height: 50px;
+    vertical-align: bottom;
+}
 a {
   color: $blue;
   text-decoration: none;
@@ -77,12 +107,14 @@ a {
     color: $blue;
   }
 }
-
+th, td {
+    border-bottom: 1px solid #ddd;
+}
 ul, ol {
   margin: 15px 0;
   padding-left: 30px;
 }
-
+tr:hover {background-color: #f5f5f5;}
 ul {
   list-style-type: disc;
 }
@@ -90,7 +122,7 @@ ul {
 ol {
   list-style-type: decimal;
 }
-
+tr:nth-child(even) {background-color: #f2f2f2;}
 ol ul, ul ol, ul ul, ol ol {
   margin: 0;
 }
@@ -98,7 +130,10 @@ ol ul, ul ol, ul ul, ol ol {
 ul ul, ol ul {
   list-style-type: circle;
 }
-
+th {
+    background-color: #4CAF50;
+    color: white;
+}
 em, i {
   font-style: italic;
 }
@@ -110,7 +145,13 @@ strong, b {
 img {
   max-width: 100%;
 }
+<div style="overflow-x:auto;">
 
+<table>
+... table content ...
+</table>
+
+</div>
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
