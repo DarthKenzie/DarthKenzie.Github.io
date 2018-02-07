@@ -45,7 +45,7 @@ table, th, td {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkerGray;
+  color: #23ff27;
   font-weight: bold;
 
   line-height: 1.7;
@@ -228,7 +228,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: #23ff27;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -238,7 +238,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: #23ff27;
   font-size: 16px;
 
   @include mobile {
