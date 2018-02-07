@@ -129,7 +129,10 @@ ol ul, ul ol, ul ul, ol ol {
 
 ul ul, ol ul {
   list-style-type: circle;
-
+th {
+    background-color: #00ff00;
+    color: white;
+}
 }
 em, i {
   font-style: italic;
