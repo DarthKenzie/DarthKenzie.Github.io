@@ -122,10 +122,6 @@ ul {
 ol {
   list-style-type: decimal;
 }
-tr:nth-child(even) {background-color: #f2f2f2;}
-ol ul, ul ol, ul ul, ol ol {
-  margin: 0;
-}
 
 ul ul, ol ul {
   list-style-type: circle;
