@@ -30,8 +30,8 @@ table, th, td {
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
-  padding: 0 10px;
+  max-width: 900px;
+  padding: 0 20px;
   width: 100%;
 }
 
@@ -40,7 +40,7 @@ table {
 }
 
 table, th, td {
-    border: 1px solid black;
+    border: 1px solid green;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -57,10 +57,10 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 table {
-    border: 1px solid black;
+    border: 1px solid green;
 }
 h1 {
-  font-size: 30px;
+  font-size: 50px;
   a {
     color: inherit;
   }
@@ -70,25 +70,25 @@ table {
 }
 
 th {
-    height: 50px;
+    height: 70px;
 }
 h2 {
-  font-size: 24px;
+  font-size: 35px;
 }
 th {
     text-align: left;
 }
 h3 {
-  font-size: 20px;
+  font-size: 35px;
 }
 
 h4 {
-  font-size: 22px;
-  color: $gray;
+  font-size: 35px;
+  color: green;
 }
 
 td {
-    height: 50px;
+    height: 70px;
     vertical-align: bottom;
 }
 p {
@@ -96,19 +96,19 @@ p {
 }
 
 td {
-    height: 50px;
+    height: 70px;
     vertical-align: bottom;
 }
 a {
-  color: $blue;
+  color: green;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: green;
   }
 }
 th, td {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid green;
 }
 ul, ol {
   margin: 15px 0;
@@ -154,11 +154,11 @@ img {
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $black;
+  color: green;
   background: slategray;
 }
 ::selection {
-  color: $black;
+  color: green;
   background: $lightGray;
 }
 
