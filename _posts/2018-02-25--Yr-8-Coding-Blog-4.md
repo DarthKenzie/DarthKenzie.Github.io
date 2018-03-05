@@ -1,5 +1,5 @@
 ---
-title:  Yr 8 Coding Blog 4
+title:  Yr 8 Coding Blog 5
 layout: post
 author: robert.mackenzie-crooks
 permalink: /-yr-8-coding-blog-4/
@@ -9,9 +9,9 @@ published: true
 <table>
   <tr>
     <td>Title</td>
-    <td>Using Fuze. Lesson 4</td>
+    <td>Using Fuze. Lesson 5</td>
     <td>Date</td>
-    <td>04/02/18</td>
+    <td>26/02/18</td>
   </tr>
 </table>
 
@@ -23,12 +23,12 @@ published: true
   </tr>
   <tr>
     <td>Target for this lesson?</td>
-    <td>To have completed stage 1.4/1.5</td>
+    <td>To have completed stage the end of stage 1/1.5</td>
   </tr>
   <tr>
     <td>Did I reach my target? 
 (add details to "Lesson Review")</td>
-    <td> Yes and nearing the end of 1.5</td>
+    <td> We have nearly completed this target about one more page to go.</td>
   </tr>
 </table>
 
@@ -41,19 +41,19 @@ published: true
     <td>How did I learn? What strategies were effective? </td>
   </tr>
   <tr>
-    <td>In this lesson me and vincent were 'creating' space invaders and letters/shapes on fuze and making form a message e.g i love space invaders. After this we tried to make our own letter/shape to rewrite this ‘sentence’ and we ended failing the first idea and so we tried again and noticed what we did wrong and corrected it it ended up being, i hate space invaders, the ‘hate’ in the form of an X.</td>
+    <td>In this lesson I learnt by trying again and again, as always but this time we were improving and there wasn't much need to try again. I’d say it was about 1/10 of the time we had to try again and when we did it was no more than one try. Another effective strategy was paying careful attention to the instructions.</td>
   </tr>
   <tr>
     <td>What limited my learning? Which habits do I need to work on? </td>
   </tr>
   <tr>
-    <td>Getting started quickly is definitely a habit to work on, it will make us able to get more done and have more turns ‘navigating’ the ‘typer’. The thing that limited my learning most was looking at other people's work as i found it interesting, rather than concentrating on vincent and what he’s trying to tell me/ what i'm meant to be telling him.</td>
+    <td>I need to still work on getting the fuze box and accessories much quicker as sometimes I think I’m not allowed and that slows us down, I can also go to the coding clubs and improve my blogs before the next week, I’m going to go there and try and make my blog  transparent or make the writing bigger</td>
   </tr>
   <tr>
     <td>What will I change for next time? How will I improve my learning?</td>
   </tr>
   <tr>
-    <td>Last week i completed my ‘task’ of collecting the fuze box and accessories much quicker and that’s a reason we got to the stage we’re at the moment not only from effort and endless… trying again and again but the speed to get started.</td>
+    <td>Next time i will try and get to work straight away and not hesitating to get the fuze box and accessories, I need to remember to use the pen drive to save my work as well as I can’t hope that vincent has it on his</td>
   </tr>
 </table>
 
