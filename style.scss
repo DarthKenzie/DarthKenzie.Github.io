@@ -24,28 +24,16 @@ body {
   color: #FFE4C4;
 }
 
-table, th, td {
-   border: 1px solid green;
-}
-
 .container {
   margin: 0 auto;
-  max-width: 900px;
-  padding: 0 20px;
+  max-width: 740px;
+  padding: 0 10px;
   width: 100%;
-}
-
-table {
-    border-collapse: collapse;
-}
-
-table, th, td {
-    border: 1px solid green;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: #23ff27;
+  color: #ffffff;
   font-weight: bold;
 
   line-height: 1.7;
@@ -56,60 +44,40 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.4;
   }
 }
-table {
-    border: 1px solid green;
-}
+
 h1 {
-  font-size: 50px;
+  font-size: 30px;
   a {
     color: inherit;
   }
 }
-table {
-    width: 100%;
+
+h2 {
+  font-size: 24px;
 }
 
-th {
-    height: 70px;
-}
-h2 {
-  font-size: 60px;
-}
-th {
-    text-align: left;
-}
 h3 {
-  font-size: 60px;
+  font-size: 20px;
 }
 
 h4 {
-  font-size: 35px;
-  color: green;
+  font-size: 18px;
+  color: #ffffff;
 }
 
-td {
-    height: 70px;
-    vertical-align: bottom;
-}
 p {
   margin: 15px 0;
 }
 
-td {
-    height: 70px;
-    vertical-align: bottom;
-}
 a {
-  color: green;
+  color: #ffffff;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: green;
+    color: #ffffff;
   }
 }
-th, td {
-    border-bottom: 1px solid green;
-}
+
 ul, ol {
   margin: 15px 0;
   padding-left: 30px;
@@ -123,13 +91,14 @@ ol {
   list-style-type: decimal;
 }
 
+ol ul, ul ol, ul ul, ol ol {
+  margin: 0;
+}
+
 ul ul, ol ul {
   list-style-type: circle;
-th {
-    background-color: #00ff00;
-    color: black;
 }
-}
+
 em, i {
   font-style: italic;
 }
@@ -149,16 +118,16 @@ img {
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: #ffffff;
 }
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: green;
-  background: slategray;
+  color: #ffffff;
+  background: $lightGray;
 }
 ::selection {
-  color: green;
+  color: #ffffff;
   background: $lightGray;
 }
 
@@ -224,7 +193,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: #23ff27;
+  color: #ffffff;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -234,7 +203,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: #23ff27;
+  color: #ffffff;
   font-size: 16px;
 
   @include mobile {
@@ -257,7 +226,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: #ffffff;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
@@ -272,28 +241,59 @@ nav {
 //
 // .main
 //
-
-.posts > .post {
-  padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+  .posts > .post {
+padding: 2px;
+  border: #ff0000;
+  border-radius: 20px;
+  background-color: #ff0000;
+  background: rgba(255,0,0,0.4) /* Red background with 40% opacity */;	
 }
 
 .posts > .post:last-child {
-  padding-bottom: 1em;
-  border-bottom: none;
+  padding: 2px;
+  border: #ff0000;
+  border-radius: 20px;
+  background-color: #ff0000;
+  background: rgba(255,0,0,0.4) /* Red background with 40% opacity */;	
 }
 
-.post {
+.post, table, th, td {
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
-    color: $gray;
+    color: #ffbb00;
     font-size: 22px;
     font-style: italic;
+    border-bottom: 5px #ff0000;
+    border-top: 5px #ff0000;
+    border-left: 5px #ff0000;
+    border-right: 5px #ff0000; 
+    border: 2px solid red;
+    border-radius: 25px;
   }
 
-  .comments {
+table, th, td {
+   border: 5px solid red;
+   padding: 25px;
+   border: #ff0000;
+   border-top-left-radius: 25px;
+   border-top-right-radius: 25px;	
+   border-bottom-right-radius: 25px;
+   border-bottom-left-radius: 25px;
+   background-color: rgba(51,51,0,0.6) /* Background with 100% opacity */;
+}
+
+th {
+   text-align: left;
+}
+	
+td {
+    height: 50px;
+    vertical-align: bottom;
+}
+
+	  .comments {
     margin-top: 10px;
   }
 
@@ -315,7 +315,8 @@ footer {
   text-align: center;
 }
 
-// Settled on moving the import of syntax highlighting to the bottom of the CSS
+	
+//settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
